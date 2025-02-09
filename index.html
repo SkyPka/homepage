@@ -1,15 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <title>Skypka</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showl Link</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- header part -->
+
+    <header>
+        <div class="header__logo-box">
+            <a href="/"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+        <nav class="header__nav">
+            <input type="checkbox" class="nav__checkbox" id="nav__toggle">
+            <label for="nav__toggle" class="nav__button">
+                <span class="nav__icon"></span>
+            </label>
+            <div class="nav__background"></div>
+            <ul class="nav__menu">
+                <li class="menu-item"><a class="menu-item__text" href="./index.html">home</a></li>
+                <li class="menu-item"><a class="menu-item__text" href="./ShowFiles/index.html">Files</a></li>
+            </ul>
+
+        </nav>
+        <div class="header__user">
+            <img src="img/icon-user.svg" alt="icon-user">
+        </div>
+    </header>
+
+
+    <!-- main content     -->
+
+    <main class="content-wrapper">
+        <div class="content__intro">
+            <h1 class="heading-title">Skypka</h1>
+            <p class="paragraph-subtitle">A technology organization established by two students.</p>
+            <button class="btn-primary"><a class="btn-primary__text" href="./index.html">Join us</a></button>
+        </div>
+        <div class="content__cards">
+            <div class="card">
+                <div class="card__number">P</div>
+                <div class="card__title">Programming drives innovation</div>
+                <div class="card__subtitle">Founded in July 2023 by <a href="#">Sura</a> and <a href="#">0x7DA</a>, Skypka is a technology organization.</div>
+                <button class="card__btn"><a href="./ShowFiles/index.html">Learn more &#8250;</a></button>
+            </div>
+            <div class="card">
+                <div class="card__number">K</div>
+                <div class="card__title">Keeping up with high-tech</div>
+                <div class="card__subtitle">Mark.js is a js library.It can analysis md files to html and show them.
+                </div>
+                <button class="card__btn"><a href="https://markjs.io/">Learn more &#8250;</a></button>
+            </div>
+            <div class="card">
+                <div class="card__number">A</div>
+                <div class="card__title">Algorithms optimize performance.</div>
+                <div class="card__subtitle">PHP is a good progarm language, it is easy to use.</div>
+                <button class="card__btn"><a href="./index.html">Learn more &#8250;</a></button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer__copyright">Skypka ©2024-2025</p>
+    </footer>
 </body>
 
 </html>
