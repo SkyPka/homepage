@@ -259,6 +259,12 @@ button.btn-primary {
     margin-bottom: 3rem;
 }
 
+.card__subtitle a{
+    font-weight: bolder;
+    text-decoration:underline;
+    color: #fff;
+}
+
 .card__btn {
     display: inline-block;
     outline: none;
